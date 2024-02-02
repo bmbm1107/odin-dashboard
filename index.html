@@ -4,7 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/7a0dde0df3.js" crossorigin="anonymous"></script>
+
+
     <title>Dashboard</title>
 </head>
 
@@ -12,25 +20,25 @@
     <header>
         <div class="flex">
             <form action="" method="get">
-                <label><img src="./" alt="icon"><input type="text"></label>
+                <label><i class="fa-solid fa-magnifying-glass"></i><input type="text"></label>
             </form>
             <ul>
-                <li>bell</li>
-                <li><img class="user-avatar" src="" alt="avatar"></li>
+                <li><i class="fa-solid fa-bell"></i></li>
+                <li><img class="user-avatar" src="./images/chicken.webp" alt="avatar"></li>
                 <li>Username</li>
             </ul>
         </div>
         <div class="navbar">
-            <img class="user-avatar" src="" alt="avatar">
-           <p>Hi there,</p>
-           <p>Morgan Oakley (@morgan)</p>
+            <img class="user-avatar" src="./images/chicken.webp" alt="avatar">
+            <p>Hi there,</p>
+            <p>Morgan Oakley (@morgan)</p>
 
-       <ul>
-        <li><button type="button">New</button></li>
-        <li><button type="button">Upload</button></li>
-        <li><button type="button">Share</button></li>
-       </ul>
-         
+            <ul>
+                <li><button type="button">New</button></li>
+                <li><button type="button">Upload</button></li>
+                <li><button type="button">Share</button></li>
+            </ul>
+
         </div>
 
 
@@ -38,28 +46,132 @@
     <div class="sidebar">
 
         <div class="flex">
-            <img src="./images/" alt="logo">
+            <svg width="80" height="80" fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" /></svg>
             <p>Dashboard</p>
         </div>
+        <div>
 
-        <ul>
-            <li>Home</li>
-            <li>Profile</li>
-            <li>Messages</li>
-            <li>History</li>
-            <li>Tasks</li>
-            <li>Communities</li>
-        </ul>
-        <ul>
-            <li>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
-        </ul>
+            <ul>
+                <li><i class="fa-solid fa-house"></i>Home</li>
+                <li><i class="fa-solid fa-user"></i>Profile</li>
+                <li><i class="fa-solid fa-message"></i>Messages</li>
+                <li><i class="fa-solid fa-clock-rotate-left"></i>History</li>
+                <li><i class="fa-solid fa-list-check"></i>Tasks</li>
+                <li><i class="fa-solid fa-group-arrows-rotate"></i>Communities</li>
+            </ul>
+            <ul>
+                <li><i class="fa-solid fa-gears"></i>Settings</li>
+                <li><i class="fa-solid fa-circle-question"></i>Support</li>
+                <li><i class="fa-solid fa-lock"></i>Privacy</li>
+            </ul>
+        </div>
     </div>
     <main>
 
-        <p>Your projects</p>
+        <h1>Your projects</h1>
+        <div class="projects">
+
+
+            <div class="p-card">
+                
+                <div class="text-wrapper">
+                    <h2>Super Cool Project</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium exercitationem expedita harum
+                        voluptate eligendi minus quae fugit officia perspiciatis voluptatibus.</p>
+                </div>
+
+                    <ul>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-eye"></i></li>
+                        <li><i class="fa-solid fa-code-branch"></i></li>
+                    </ul>
+            </div>
+            <div class="p-card">
+                <div class="text-wrapper">
+                    <h2>Super Cool Project</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium exercitationem expedita harum
+                        voluptate eligendi minus quae fugit officia perspiciatis voluptatibus.</p>
+                </div>
+
+                    <ul>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-eye"></i></li>
+                        <li><i class="fa-solid fa-code-branch"></i></li>
+                    </ul></div>
+            <div class="p-card">
+                <div class="text-wrapper">
+                    <h2>Super Cool Project</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium exercitationem expedita harum
+                        voluptate eligendi minus quae fugit officia perspiciatis voluptatibus.</p>
+                </div>
+
+                    <ul>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-eye"></i></li>
+                        <li><i class="fa-solid fa-code-branch"></i></li>
+                    </ul></div>
+            <div class="p-card">
+                <div class="text-wrapper">
+                    <h2>Super Cool Project</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium exercitationem expedita harum
+                        voluptate eligendi minus quae fugit officia perspiciatis voluptatibus.</p>
+                </div>
+
+                    <ul>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-eye"></i></li>
+                        <li><i class="fa-solid fa-code-branch"></i></li>
+                    </ul></div>
+            <div class="p-card">
+                <div class="text-wrapper">
+                    <h2>Super Cool Project</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium exercitationem expedita harum
+                        voluptate eligendi minus quae fugit officia perspiciatis voluptatibus.</p>
+                </div>
+
+                    <ul>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-eye"></i></li>
+                        <li><i class="fa-solid fa-code-branch"></i></li>
+                    </ul></div>
+            <div class="p-card">
+                <div class="text-wrapper">
+                    <h2>Super Cool Project</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium exercitationem expedita harum
+                        voluptate eligendi minus quae fugit officia perspiciatis voluptatibus.</p>
+                </div>
+
+                    <ul>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-eye"></i></li>
+                        <li><i class="fa-solid fa-code-branch"></i></li>
+                    </ul></div>
+        </div>
+        <h1>Anouncements</h1>
+        <div class="anouncements">
+
+            <div class="announcement"> <h2>Super Cool Project</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium exercitationem expedita harum
+                    voluptate eligendi minus quae fugit officia perspiciatis voluptatibus.</p></div>
+            <div class="announcement"> <h2>Super Cool Project</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium exercitationem expedita harum
+                    voluptate eligendi minus quae fugit officia perspiciatis voluptatibus.</p></div>
+            <div class="announcement"> <h2>Super Cool Project</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium exercitationem expedita harum
+                    voluptate eligendi minus quae fugit officia perspiciatis voluptatibus.</p></div>
+        </div>
+        <h1>Trending</h1>
+        <div class="trending-container">
+            <div class="trending-card">
+                <img class="user-avatar" src="./images/chicken.webp" alt="avatar">
+                <p class="trending-user">@Myself</p>
+                <p class="trending-project">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim praesentium vero dolore reprehenderit fugiat harum ducimus voluptatem assumenda soluta sed.</p>
+            </div>
+
+        </div>
     </main>
+
+
 </body>
 
 </html>
